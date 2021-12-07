@@ -1,6 +1,6 @@
 node('manam-1') {  
 stage('git') {
-    git 'https://github.com/yadavallimallikharjua/spring-petclinic.git'
+    git 'https://github.com/yadavallimallikharjua/simple-java-project.git'
 }
 stage('build') {
     sh 'mvn clean package'
