@@ -7,5 +7,5 @@ stage('build') {
 }
 stage ('archive') {
    archiveArtifacts artifacts: '**Test/-*.xml', followSymlinks: false  
-}
-}
+}  
+}   
